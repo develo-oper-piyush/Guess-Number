@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="output.css" />
+        <title>Guess Number</title>
+        <link rel="shortcut icon" href="images/die.png" type="image/x-icon" />
+    </head>
+    <body
+        class="m-0 p-0 box-border font-gilroy font-bold w-screen h-screen bg-gray-200"
+    >
+        <div
+            id="main"
+            class="select-none w-screen h-screen flex flex-col justify-center items-center bg-[#1c1c1c] text-white gap-y-5"
+        >
+            <div
+                class="w-90 p-20 bg-[#262626] ring-1 ring-[#3c3c3c] rounded-md shadow-lg flex flex-col justify-center items-center gap-5"
+            >
+                <h2 class="text-center w-80">
+                    Guess a number between 1 to 100 &#127922;
+                </h2>
+                <input
+                    id="inp"
+                    type="text"
+                    minlength="0"
+                    maxlength="3"
+                    class="cursor-text bg-[#3c3c3c] rounded-md outline-none pl-4 pr-4 pt-1 pb-1 w-15"
+                />
+                <div
+                    id="btn"
+                    class="bg-[#3c3c3c] w-15 text-center rounded-md hover:bg-[#383838] transition-all duration-200 cursor-pointer active:scale-90"
+                >
+                    Guess
+                </div>
+                <small id="msg" class="text-center hidden"
+                    >Enter a valid number.</small
+                >
+                <h3>Attempts remaining - <span id="number">10</span></h3>
+                <h3 id="crt" class="cursor-text hidden">
+                    &#x1F389; You guessed correct
+                </h3>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
