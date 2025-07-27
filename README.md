@@ -7,7 +7,7 @@ Created by Piyush as a project for learning DOM in JS.
 ---
 
 ### 🌐 Live Demo:
-- [Click here](https://guessnumber.netlify.app/)
+- [Click here](https://guess-nmb.netlify.app/)
 
 ### 🚀 Quick Start (To try this on your local machine)
 
