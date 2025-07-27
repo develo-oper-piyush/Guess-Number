@@ -1,4 +1,4 @@
-# Guess Number
+# 🎲 Guess Number
 
 Created by Piyush as a project for learning DOM in JS.
 
